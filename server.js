@@ -30,11 +30,6 @@ mongoose.connect(
   }
 );
 
-// Start the API server
-app.listen(PORT, function() {
-  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
-});
-
 app.post("/SignUp", function(req, res) {
   console.log(req.body.body)
   // controller.createUser(req,res)
@@ -49,6 +44,13 @@ app.post("/SignUp", function(req, res) {
 });
 
   });
+
+// Start the API server
+app.listen(PORT, function() {
+  console.log(`🌎  ==> API Server now listening on PORT ${PORT}!`);
+});
+
+
 
   // console.log(controller)
 
