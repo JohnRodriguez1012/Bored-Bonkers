@@ -1,0 +1,19 @@
+.landing {
+    margin: auto;
+}
+h1{
+    text-align: center;
+    font-weight: 600;
+}
+
+img {
+    float: left;
+    size: 50%;
+}
+
+h5 {
+    float: left;
+    text-align: center;
+    font-style: italic;
+    font-weight: 300;
+}

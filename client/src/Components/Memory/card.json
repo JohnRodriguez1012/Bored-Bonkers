@@ -1,0 +1,103 @@
+
+[
+  {
+    "id": 1,
+    "name": "Butters",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/0/06/ButtersStotch.png/revision/latest?cb=20170322004353"
+  },
+  {
+    "id": 2,
+    "name": "Scott",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/5/5b/Latest-18.png/revision/latest?cb=20170531064341./Components/Images/Captain_Diabetes.png"
+  },
+  {
+    "id": 3,
+    "name": "Cartman",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/c/c4/Eric-cartman.png/revision/latest?cb=20171121092247"
+  },
+  {
+    "id": 4,
+    "name": "Clyde",
+    "image": "https://orig00.deviantart.net/65d8/f/2017/356/5/3/sp___clyde_my_crying_by_xxlizajurtsenkoxx-dbxhk1m.png"
+  },
+  {
+    "id": 5,
+    "name": "David",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/c/c9/4th-graders-david.png/revision/latest?cb=20151114050515"
+  },
+  {
+    "id": 6,
+    "name": "Dog Poo",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/4/4b/Dog_Poo44.png/revision/latest?cb=20170322004616"
+  },
+  {
+    "id": 7,
+    "name": "Heidi",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/b/b8/HeidiTurnerHat.png/revision/latest/scale-to-width-down/310?cb=20171128215241"
+  },
+  {
+    "id": 8,
+    "name": "Kenny",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/6/6f/KennyMcCormick.png/revision/latest?cb=20160409020502"
+  },
+  {
+    "id": 9,
+    "name": "Kip",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/f/f0/Kip-drordry.png/revision/latest?cb=20161011014356"
+  },
+  {
+    "id": 10,
+    "name": "Kyle",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/4/4c/HighJewElfKing.transparent.png/revision/latest?cb=20170530012313"
+  },
+  {
+    "id": 11,
+    "name": "Leslie",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/0/00/4th-graders-leslie.png/revision/latest/scale-to-width-down/310?cb=20151101192616"
+  },
+  {
+    "id": 12,
+    "name": "Mimsy",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/9/9c/Mimsy.png/revision/latest?cb=20170920122731"
+  },
+  {
+    "id": 13,
+    "name": "Nathan",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/0/03/Tardicaca-camp-nathan.png/revision/latest?cb=20170619195639"
+  },
+  {
+    "id": 14,
+    "name": "Nichole",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/e/e4/Nichole_2.png/revision/latest?cb=20170906201058"
+  },
+  {
+    "id": 15,
+    "name": "Sally",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/b/be/Sally-struthers.png/revision/latest?cb=20170627104720"
+  },
+  {
+    "id": 16,
+    "name": "Stan",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/b/bd/Toolshed.transparent.png/revision/latest?cb=20170527025409"
+  },
+  {
+    "id": 17,
+    "name": "Timmy",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/4/4b/Timmy.png/revision/latest?cb=20171014061716"
+  },
+  {
+    "id": 18,
+    "name": "Token",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/d/d3/Token_Black2.png/revision/latest?cb=20171014061951"
+  },
+  {
+    "id": 19,
+    "name": "Tweek",
+    "image": "https://vignette.wikia.nocookie.net/southpark/images/9/94/Barbarian-tweek.png/revision/latest?cb=20170530124242"
+  },
+  {
+    "id": 20,
+    "image": "https://vignette.wikia.nocookie.net/southparkfanon/images/b/b4/Chefpic.gif/revision/latest?cb=20111101082258",
+    "name": "Chef"
+  }
+]

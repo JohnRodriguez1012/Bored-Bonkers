@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: "http://media1.gameinformer.com/imagefeed/screenshots/SouthPark/South_Park_env_town_1.png"
+}
+
+image {
+  border-color: red;
+}
