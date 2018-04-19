@@ -1,0 +1,9 @@
+.editor, .guess{
+    margin: 10px;
+
+}
+
+.guess{
+    border-radius: 15%;
+    text-align: center;
+}

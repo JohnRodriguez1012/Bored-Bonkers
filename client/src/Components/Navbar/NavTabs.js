@@ -1,10 +1,6 @@
 import React from "react";
 import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, Switch, Link } from "react-router-dom";
-// import Memory from "../Memory/App.js";
-// import Trivia from "../Trivia/App.js";
-// import Hangman from "../Hangman/Hangman.js"
-// import Nav from "./components/Nav";
 import {Navbar, NavItem, Nav} from "react-bootstrap"
 
 
@@ -28,6 +24,12 @@ const NavTabs = () => (
             <NavItem eventKey={3} href="../Trivia">
                 Trivia
             </NavItem>
+            {/* <NavItem eventKey={4} href="../Crystal">
+                Crystals
+            </NavItem> */}
+            <NavItem eventKey={5} href="../FAQ">
+                FAQ
+            </NavItem>
             </Nav>
             <Nav pullRight>
             <NavItem eventKey={1} href="../MyProfile">
@@ -35,7 +37,7 @@ const NavTabs = () => (
             </NavItem>
             </Nav>
             <Nav pullLeft>
-            <NavItem eventKey={1} href="#">
+            <NavItem eventKey={1} href="/">
                 Stats!
             </NavItem>
             </Nav>

@@ -5,12 +5,15 @@ import './App.css';
 import NavTabs from "./Components/Navbar/NavTabs.js"
 import CustomFooter from "./Components/Footer/Footer.js"
 import Memory from "./Components/Memory/MemoryApp.js";
-// import Trivia from "./Components/Trivia/Trivia.js";
+import Trivia from "./Components/Trivia/TriviaApp.js";
 import Hangman from "./Components/Hangman/HangmanApp"
 import MyProfile from "./Components/MyProfile/MyProfile.js";
 import Landing from "./Components/Landing/Landing.js"
+import FAQ from "./Components/FAQ/FAQ.js"
+// import Crystal from "./Components/Crystal/Components/CrystalApp"
 
 const App = () => (
+  // from MyPRofile, setting the state of the app
   <Router>
 
    <div>
@@ -18,10 +21,13 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={Landing} />
         <Route exact path="/Memory" component={Memory} />
-        {/* <Route exact path="/Trivia" component={Trivia} /> */}
+        <Route exact path="/Trivia" component={Trivia} />
         <Route exact path="/Hangman" component={Hangman} />
+        {/* <Route exact path="/Crystal" component={Crystal} /> */}
         {/* <Route component={NoMatch} /> */}
+        <Route exact path="/FAQ" component={FAQ} />
         <Route path="/MyProfile" component={MyProfile} />
+        {/**Pass function as prop to set this.state.email*/}
         {/* <Route exact path="MyProfile/Login" component={Login} />
         <Route exact path="MyProfile/SignUp" component={SignUp} /> */}
 

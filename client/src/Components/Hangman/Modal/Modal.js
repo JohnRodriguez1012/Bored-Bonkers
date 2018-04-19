@@ -4,7 +4,7 @@ import {Button, Popover, Modal, OverlayTrigger, ModalBody} from "react-bootstrap
 
 
 
-class HangmanInstructions extends React.Component {
+class MemoryInstructions extends React.Component {
     
   render() {
           
@@ -20,13 +20,12 @@ class HangmanInstructions extends React.Component {
                 </Modal.Header>
             
                 <Modal.Body>
-                 <h3>It's Hangman!</h3>
-                    <ol>
-                        <li><h3>It's Hangman!</h3></li>
-                        <li>Use your keyboard to guess the chosen word.</li>
-                        <li>You have as many guesses as there are letters <strong>PLUS FIVE MORE</strong> </li>
-                        <li>Guess the word correctly, before your guesses run out, and your win!</li>
-                    </ol>        
+                    <ul>
+                        <li>Enter your guess in the box below</li>
+                        <li>All of you choices will display.</li>
+                        <li>If you guess incorrectly 5 times...You Lose!</li>
+                        <li>Guess the word correctly and you win!</li>
+                    </ul>        
                 </Modal.Body>
             
                 <Modal.Footer>
@@ -34,7 +33,7 @@ class HangmanInstructions extends React.Component {
 
                         <a className="waves-effect waves-light btn" onClick={() => {
                             document.getElementsByClassName('instructionsModal')[0].classList.add('hide');}} >
-                            Let's Play Already...
+                            Let's Get Guessin!
                         </a>
                     </div>
                 </Modal.Footer>
@@ -45,4 +44,4 @@ class HangmanInstructions extends React.Component {
 }
 
 
-export default HangmanInstructions;
+export default MemoryInstructions;

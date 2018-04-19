@@ -30,6 +30,19 @@ mongoose.connect(
   }
 );
 
+
+//create scores
+// app.post("/SignUp", function(req, res){
+//   db.Scores.create(req.body.body)
+//   .then(function(dbUser) {
+//     console.log(dbUser);
+//   })
+//   .catch(function(err) {
+//     console.log(err.message);
+//   }); 
+// })
+
+//create login
 app.post("/SignUp", function(req, res) {
   console.log(req.body.body)
   // controller.createUser(req,res)

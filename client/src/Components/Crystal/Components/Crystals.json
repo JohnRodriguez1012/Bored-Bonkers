@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "name": "Red Star",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Red_star.svg/2000px-Red_star.svg.png",
+      "value":0
+    },
+    {
+        "id": 2,
+        "name": "Blue Crystal",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Light_blue_star.svg/2000px-Light_blue_star.svg.png",
+        "value":0
+    },
+    {
+        "id": 3,
+        "name": "White Crystal",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/White_Stars_1.svg/2000px-White_Stars_1.svg.png",
+        "value":0
+    },
+    {
+        "id": 4,
+        "name": "Yellow Crystal",
+        "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Gold_Star.svg/2000px-Gold_Star.svg.png",
+        "value":0
+    }
+]

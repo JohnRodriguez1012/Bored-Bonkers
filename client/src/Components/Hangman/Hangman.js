@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import GameContainer from './Components/GameContainer';
+import GameContainer from './components/GameContainer';
 import { connect } from 'react-redux'
 import newGame from './actions/newGame'
-import './HangmanApp.css';
+import './App.css';
 
 class HangmanApp extends Component {
   componentDidMount() {

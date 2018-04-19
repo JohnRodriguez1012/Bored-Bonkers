@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
+import { Redirect, Link } from 'react-router-dom';
 // import Navbar from './Components/Nav/Nav.js';
 // import Footer from './Components/Footer/Footer.js';
 import {Grid, Row, Col, Form, FormControl, FormGroup, ControlLabel, Button, Checkbox} from "react-bootstrap";
@@ -39,13 +40,19 @@ class MyProfile extends React.Component {
         event.preventDefault();
         const info ={
             email: this.state.email,
-            password: this.state.password
+            password: this.state.password,
+            confirmPassword: this.state.confirmPassword
         }
+
+        if (info.password != info.confirmPassword ) {
+            alert("Your passwords need to match!")
+        } else{
         console.log(info);
         axios.post('/SignUp', {
           body: info,
         });
-        console.log("Form has submit")
+        console.log("Form has submit");
+        }
       };
 
     renderSignUp = () => {    
@@ -83,13 +90,15 @@ class MyProfile extends React.Component {
 
                             <FormGroup>
                                     <Col smOffset={2} sm={10}>
-                                    <Button type="submit">Sign Up!</Button>
+                                        <Link to ="/">
+                                             <Button type="submit">Sign Up!</Button>
+                                        </Link>
                                     </Col>
                             </FormGroup>
-                        </Form>
-                  
-            </Col>
-        </Grid>)
+                        </Form>          
+                </Col>
+            </Grid>
+        )
     }
 
     renderLogin = () => {
@@ -126,7 +135,9 @@ class MyProfile extends React.Component {
 
                                 <FormGroup>
                                     <Col smOffset={2} sm={10}>
-                                    <Button type="submit">Sign in</Button>
+                                        <Link to ="/">
+                                         <Button type="submit">Sign in</Button>
+                                        </Link>
                                     </Col>
                                 </FormGroup>
                             </Form>;

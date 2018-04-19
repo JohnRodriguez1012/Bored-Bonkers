@@ -6,7 +6,7 @@ function Navbar(props) {
             <nav>
                 <div className="nav-wrapper container">
                     <div className='brand-logo center' style={{ textAlign: "middle" }}>
-                            <h2>Memory</h2>
+                            <h3>Memory Game</h3>
                     </div>
                     
                     <a style={{ cursor: 'pointer' }} className='left' onClick={() => {
@@ -14,8 +14,8 @@ function Navbar(props) {
                     }}>Instructions</a>
 
                     <ul className='right'>
-                        <li style={{ float: "right" }}><h4>Score: </h4><h5>{props.score}</h5></li>
-                        <li style={{ float: "left" }}><h4>Top Score: </h4><h5>{props.topScore}</h5></li>
+                        <li style={{ float: "right" }}><h6>Score: </h6>{props.score}</li>
+                        <li style={{ float: "left" }}><h6>Top Score: </h6>{props.topScore}</li>
                     </ul>
                 </div>
             </nav>
