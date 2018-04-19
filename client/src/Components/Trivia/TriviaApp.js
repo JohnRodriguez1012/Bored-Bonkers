@@ -152,7 +152,7 @@ class TriviaApp extends React.Component {
                     <Row>
                         <div className="gameField">
                         </div>
-                    </Row>
+                    </Row> 
                 </Col>
             </Grid>
 
