@@ -24,23 +24,19 @@ const NavTabs = () => (
             <NavItem eventKey={3} href="../Trivia">
                 Trivia
             </NavItem>
-            {/* <NavItem eventKey={4} href="../Crystal">
+            <NavItem eventKey={4} href="../Crystal">
                 Crystals
-            </NavItem> */}
+            </NavItem>
             <NavItem eventKey={5} href="../FAQ">
                 FAQ
             </NavItem>
             </Nav>
             <Nav pullRight>
-            <NavItem eventKey={1} href="../MyProfile">
-                MyProfile/SignUp
+            <NavItem eventKey={1} href="https://github.com/JohnRodriguez1012/Bored-Bonkers" target="blank">
+                Check Out the Code!
             </NavItem>
             </Nav>
-            <Nav pullLeft>
-            <NavItem eventKey={1} href="/">
-                Stats!
-            </NavItem>
-            </Nav>
+>
         </Navbar.Collapse>
         </Navbar>
 </div>

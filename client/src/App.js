@@ -7,10 +7,12 @@ import CustomFooter from "./Components/Footer/Footer.js"
 import Memory from "./Components/Memory/MemoryApp.js";
 import Trivia from "./Components/Trivia/TriviaApp.js";
 import Hangman from "./Components/Hangman/HangmanApp"
-import MyProfile from "./Components/MyProfile/MyProfile.js";
+// import MyProfile from "./Components/MyProfile/MyProfile.js";
 import Landing from "./Components/Landing/Landing.js"
 import FAQ from "./Components/FAQ/FAQ.js"
-// import Crystal from "./Components/Crystal/Components/CrystalApp"
+// import Crystal from "./Components/Crystal/Components/CrystalApp.js"
+
+
 
 const App = () => (
   // from MyPRofile, setting the state of the app
@@ -26,7 +28,7 @@ const App = () => (
         {/* <Route exact path="/Crystal" component={Crystal} /> */}
         {/* <Route component={NoMatch} /> */}
         <Route exact path="/FAQ" component={FAQ} />
-        <Route path="/MyProfile" component={MyProfile} />
+        {/* <Route path="/MyProfile" component={MyProfile} /> */}
         {/**Pass function as prop to set this.state.email*/}
         {/* <Route exact path="MyProfile/Login" component={Login} />
         <Route exact path="MyProfile/SignUp" component={SignUp} /> */}
